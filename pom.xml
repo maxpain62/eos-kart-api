@@ -87,7 +87,13 @@
 
 		</dependencies>
 	</dependencyManagement>
-
+	<distributionManagement>
+  		<repository>
+    			<id>eos-eos-kart-api</id>
+    			<name>eos-eos-kart-api</name>
+    			<url>https://eos-134448505602.d.codeartifact.ap-south-1.amazonaws.com/maven/eos-kart-api/</url>
+  		</repository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
