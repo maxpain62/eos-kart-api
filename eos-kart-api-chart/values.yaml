@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image: 134448505602.dkr.ecr.ap-south-1.amazonaws.com/dev/eos-kart-api:latest
+
+port: 8082
+
+labels:
+  app: eos-kart-api
+  env: dev
+
+namespace: eos-dev
